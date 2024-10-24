@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import SuitePage from './SuitePage/SuitePage.jsx'
 import SuiteCalendar from './SuiteCalendar/SuiteCalendar.jsx'
+import HomePage from './HomePage/HomePage.jsx'
 import { createBrowserRouter, RouterProvider, useParams } from 'react-router-dom'
 
 const router = createBrowserRouter([{
@@ -13,9 +14,14 @@ const router = createBrowserRouter([{
 { path: ':suitePage',
   element: <SuitePage /> 
 },
-{ path: ':suiteCalendar',
+{ path: '/Calendar',
   element: <SuiteCalendar /> 
-  }]);
+},
+{ path: '/Home/:userId',
+  element: <HomePage />
+
+}
+]);
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />

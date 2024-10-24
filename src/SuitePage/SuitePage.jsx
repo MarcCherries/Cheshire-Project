@@ -11,11 +11,10 @@ console.log(data)
     <div>
       <p>This is the page for suite {suitePage}</p>
       <p>{data.suites[suitePage-1].id}</p>
-      <p>{data.suites[suitePage-1].}</p>
-      <p>{data.suites[suitePage-1].id}</p>
-      <p>{data.suites[suitePage-1].id}</p>
+      <p>Name: {data.suites[suitePage-1].cats[0].name}</p>
+      <p>Age: {data.suites[suitePage-1].cats[0].age}</p>
+      <p>{data.suites[suitePage-1].cats[0].sex}</p>
     </div>
   )
-}asdfadsfadsfasd
-
+}
 export default SuitePage
