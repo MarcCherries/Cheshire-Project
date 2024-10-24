@@ -1,0 +1,29 @@
+{
+    "suites":[
+        {
+            "id": 1,
+            "cats":[{
+                "name":"Nui",
+                "age" : 7,
+                "sex" : "Male",
+                "allergies": "none",
+                "foodDescription":"dry good 15 lb bag",
+                "feedingInstructions ": "dry, twice a day"
+            },
+            {
+                "name":"Nui",
+                "age" : 7,
+                "sex" : "Male",
+                "allergies": "none",
+                "foodDescription":"dry good 15 lb bag",
+                "feedingInstructions ": "dry, twice a day"
+
+
+            }
+        ],  "instagram": true          
+        }
+
+    ]
+    
+    
+}
