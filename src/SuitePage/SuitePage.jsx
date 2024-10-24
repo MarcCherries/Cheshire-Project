@@ -16,6 +16,6 @@ console.log(data)
       <p>{data.suites[suitePage-1].id}</p>
     </div>
   )
-}
+}asdfadsfadsfasd
 
 export default SuitePage
